@@ -326,7 +326,7 @@ def custom_animation(zoom_step = 0.5, station = 'KIND', **kwargs):
             time_stamp = add_timestamp(ax, time=date)
             time_stamp.set_font('Calibri')
             time_stamp.set_fontsize(36)
-            fname = r"C:\Users\Jonathan DeGraw\NEXRAD Radar Code\Frames" + '\\' + str(nframe) + "_Animation_Frame_.png"
+            fname = r"C:\Users\jonat\MetEnv\code\NEXRAD-Radar-Plots\frames" + '\\' + str(nframe) + "_Animation_Frame_.png"
             plt.savefig(fname)
             print(f"Saved File: {fname}")
             plt.close(fig)
